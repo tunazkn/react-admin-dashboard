@@ -1,0 +1,218 @@
+{
+  "sidebar": {
+    "dashboard": "Anasayfa",
+    "users": "Kullanıcılar",
+    "products": "Ürünler",
+    "orders": "Siparişler",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap",
+    "adminPanel": "Yönetici Paneli"
+  },
+  "users": {
+    "title": "Kullanıcı Listesi",
+    "subtitle": "Toplam {{count}} kullanıcı görüntüleniyor",
+    "addUser": "Yeni Kullanıcı Ekle",
+    "reset": "Verileri Sıfırla",
+    "buttons": {
+      "reset": "Sıfırla",
+      "addNew": "Yeni Kullanıcı Ekle",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "saveChanges": "Değişiklikleri Kaydet",
+      "createUser": "Kullanıcıyı Oluştur",
+      "cancel": "İptal"
+    },
+    "table": {
+      "id": "#",
+      "name": "İsim Soyisim",
+      "email": "Email",
+      "role": "Rol",
+      "status": "Durum",
+      "actions": "İşlemler"
+    },
+    "roles": {
+      "admin": "Yönetici",
+      "editor": "Editör",
+      "user": "Kullanıcı"
+    },
+    "status": {
+      "active": "Aktif",
+      "passive": "Pasif",
+      "pending": "Beklemede"
+    },
+    "messages": {
+      "nameRequired": "İsim alanı boş bırakılamaz!",
+      "emailRequired": "Email alanı boş bırakılamaz!",
+      "emailInvalid": "Geçerli bir email adresi giriniz.",
+      "noPermission": "Bu işlem için yetkiniz yok!",
+      "confirmDelete": "Bu kullanıcıyı silmek istediğinize emin misiniz?",
+      "confirmReset": "Tüm veriler sıfırlanacak. Onaylıyor musunuz?"
+    }
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "confirmDelete": "Silmek istediğinize emin misiniz?",
+    "form": {
+      "email": "E-posta",
+      "password": "Şifre"
+    },
+    "errors": {
+      "serverError": "Sunucu hatası oluştu, lütfen daha sonra tekrar deneyiniz."
+    },
+    "messages": {
+      "fillInAllFields": "Lütfen tüm alanları doldurunuz.",
+      "enterValidEmailAddress": "Lütfen geçerli bir e-posta adresi giriniz."
+    }
+  },
+  "products": {
+    "title": "Ürün Yönetimi",
+    "addProduct": "Yeni Ürün Ekle",
+    "table": {
+      "image": "Görsel",
+      "name": "Ürün Adı",
+      "category": "Kategori",
+      "price": "Fiyat",
+      "stock": "Stok",
+      "status": "Durum",
+      "actions": "İşlemler"
+    },
+    "categories": {
+      "electronics": "Elektronik",
+      "clothing": "Giyim",
+      "accessories": "Aksesuar",
+      "computers": "Bilgisayar"
+    },
+    "messages": {
+      "stockHelper": "* 10 adedin altı 'Kritik', 0 adet 'Stok Yok' olarak işaretlenir."
+    },
+    "status": {
+      "inStock": "Satışta",
+      "lowStock": "Kritik Stok",
+      "outOfStock": "Stok Yok"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "appearance": "Görünüm",
+    "darkMode": "Karanlık Mod",
+    "darkModeDesc": "Uygulamanın temasını koyu veya açık olarak değiştirin.",
+    "language": "Dil Seçimi",
+    "languageDesc": "Uygulamanın varsayılan dilini ayarlayın.",
+    "subtitle": "Profilinizi ve uygulama tercihlerinizi yönetin.",
+    "tabs": {
+      "profile": "Profil",
+      "security": "Güvenlik",
+      "preferences": "Tercihler"
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "updatePassword": "Şifreyi Güncelle"
+    },
+    "messages": {
+      "saved": "Ayarlar başarıyla kaydedildi!"
+    },
+    "profile": {
+      "title": "Profil Bilgileri",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "bio": "Hakkımda"
+    },
+    "security": {
+      "title": "Şifre Değiştir",
+      "currentPassword": "Mevcut Şifre",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Yeni Şifre (Tekrar)"
+    },
+    "preferences": {
+      "title": "Uygulama Ayarları",
+      "themeTitle": "Görünüm Modu",
+      "themeDesc": "Karanlık ve aydınlık mod arasında geçiş yapın.",
+      "langTitle": "Dil Seçimi",
+      "langDesc": "Uygulamanın varsayılan dilini ayarlayın."
+    }
+  },
+  "auth": {
+    "loginError": "Email veya şifre hatalı!",
+    "passiveError": "Hesabınız pasif durumdadır, yöneticiyle iletişime geçin.",
+    "generalError": "Bir hata oluştu.",
+    "login": {
+      "title": "Yönetici Girişi",
+      "submitButton": "Giriş Yap"
+    },
+    "errors": {
+      "generalError": "Login failed."
+    }
+  },
+  "dashboard": {
+    "title": "Panel Özeti",
+    "subtitle": "Sistem durumuna genel bir bakış.",
+    "buttons": {
+      "manageProducts": "Ürünleri Yönet",
+      "viewReports": "Raporları Gör"
+    },
+    "stats": {
+        "inventoryValue": "Toplam Envanter",
+      "registeredUsers": "Kayıtlı Kullanıcılar",
+      "criticalStock": "Kritik Stok",
+      "warehouseOccupancy": "Depo Doluluk",
+      "active": "Aktif",
+      "warning": "Dikkat",
+      "unit": "Adet",
+      "subtext": {
+        "value": "toplam değer",
+        "people": "sistemdeki kişi",
+        "renew": "stok yenileme gerekli",
+        "totalItem": "toplam ürün adedi"
+      },
+      "totalUsers": "Toplam Kullanıcı",
+      "totalSales": "Toplam Satış",
+      "revenue": "Gelir",
+      "products": "Ürün Sayısı",
+      "lastMonth": "geçen aya göre"
+    },
+    "inventoryStatus": {
+      "title": "Envanter Durumu",
+      "viewAll": "Tümünü Gör",
+      "table": {
+        "product": "Ürün Adı",
+        "price": "Fiyat",
+        "stock": "Stok",
+        "status": "Durum"
+      }
+    },
+    "status": {
+      "outOfStock": "Tükendi",
+      "critical": "Kritik",
+      "available": "Mevcut"
+    },
+    "systemSummary": {
+      "title": "Sistem Özeti",
+      "totalProduct": "Toplam Ürün",
+      "activeUser": "Aktif Kullanıcı",
+      "outOfStock": "Tükenen Ürünler"
+    },
+    "capacity": {
+      "title": "Depo Doluluk Oranı",
+      "usage": "Kapasite Kullanımı",
+      "info": "Depodaki ürünlerin toplam maliyeti {{value}} seviyesindedir."
+    },
+    "recentOrders": {
+      "title": "Son Siparişler",
+      "product": "Ürün",
+      "customer": "Müşteri",
+      "amount": "Tutar",
+      "status": "Durum"
+    },
+    "targets": {
+      "title": "Aylık Hedefler",
+      "monthlySales": "Aylık Satış Hedefi",
+      "newUsers": "Yeni Üye Hedefi",
+      "profit": "Kâr Hedefi",
+      "info": "Hedefleriniz geçen ayın verilerine göre otomatik hesaplanmıştır."
+    }
+  }
+}

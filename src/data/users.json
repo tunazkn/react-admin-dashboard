@@ -1,0 +1,26 @@
+[ 
+  { 
+    "id": 1, 
+    "name": "Ali Yılmaz", 
+    "email": "admin@gmail.com", 
+    "role": "admin", 
+    "status": "active", 
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4" 
+  },
+  { 
+    "id": 2, 
+    "name": "Ayşe Demir", 
+    "email": "test@gmail.com", 
+    "role": "editor", 
+    "status": "passive", 
+    "password": "a1fb4e703a9ef1fa4936801721ff285a97ac85330856674412e054892afe6972" 
+  },
+  { 
+    "id": 3, 
+    "name": "Mehmet Kaya", 
+    "email": "mehmet@gmail.com", 
+    "role": "user", 
+    "status": "active", 
+    "password": "f3e055913a0b1eb0f07317896f9a1bc466b9a50db85a7f882f3ffde9ffb23aca" 
+  }
+]

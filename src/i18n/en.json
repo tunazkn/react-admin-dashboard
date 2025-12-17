@@ -1,0 +1,218 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "products": "Products",
+    "orders": "Orders",
+    "settings": "Settings",
+    "logout": "Logout",
+    "adminPanel": "Admin Panel"
+  },
+  "users": {
+    "title": "User List",
+    "subtitle": "Total {{count}} users showing",
+    "addUser": "Add New User",
+    "reset": "Reset Data",
+    "buttons": {
+      "reset": "Reset",
+      "addNew": "Add New User",
+      "edit": "Edit",
+      "delete": "Delete",
+      "saveChanges": "Save Changes",
+      "createUser": "Create User",
+      "cancel": "Cancel"
+    },
+    "table": {
+      "id": "#",
+      "name": "Full Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "roles": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "user": "User"
+    },
+    "status": {
+      "active": "Active",
+      "passive": "Passive",
+      "pending": "Pending"
+    },
+    "messages": {
+      "nameRequired": "The name field cannot be emty!",
+      "emailRequired": "The email field cannot be emty!",
+      "emailInvalid": "Please enter a valid email address.",
+      "noPermission": "You do not have permission to perform this action!",
+      "confirmDelete": "Are you sure you want to delete this user?",
+      "confirmReset": "All data will be reset. Do you agree?"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete?",
+    "form": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "errors": {
+      "serverError": "A server error occurred, please try again later."
+    },
+    "messages": {
+      "fillInAllFields": "Please fill in all fields.",
+      "enterValidEmailAddress":"Please enter a valid email address."
+    }
+  },
+  "products": {
+    "title": "Product Management",
+    "addProduct": "Add New Product",
+    "table": {
+      "image": "Image",
+      "name": "Product Name",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "categories": {
+      "electronics": "Electronics",
+      "clothing": "Clothing",
+      "accessories": "Accessories",
+      "computers": "Computers"
+    },
+    "messages": {
+      "stockHelper": "* Below 10 is marked as 'Low Stock', 0 is 'Out of Stock'."
+    },
+    "status": {
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Switch the application theme between dark and light.",
+    "language": "Language Selection",
+    "languageDesc": "Set the default language of the application.",
+    "subtitle": "Manage your profile and application preferences.",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security",
+      "preferences": "Preferences"
+    },
+    "buttons": {
+      "save": "Save Changes",
+      "updatePassword": "Update Password"
+    },
+    "messages": {
+      "saved": "Settings saved successfully!"
+    },
+    "profile": {
+      "title": "Profile Information",
+      "name": "Full Name",
+      "email": "Email",
+      "bio": "Bio"
+    },
+    "security": {
+      "title": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password"
+    },
+    "preferences": {
+      "title": "App Preferences",
+      "themeTitle": "Appearance",
+      "themeDesc": "Switch between dark and light themes.",
+      "langTitle": "Language Selection",
+      "langDesc": "Set the default language of the application."
+    }
+  },
+  "auth": {
+    "loginError": "Email or password is incorrect!",
+    "passiveError": "Your account is inactive; please contact the administrator.",
+    "generalError": "An error has occurred.",
+    "login": {
+      "title": "Admin Login",
+      "submitButton": "Login"
+    },
+    "errors": {
+      "generalError": "Login failed."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard Summary",
+    "subtitle": "Overview of system status.",
+    "buttons": {
+      "manageProducts": "Manage Products",
+      "viewReports": "View Reports"
+    },
+    "stats": {
+      "inventoryValue": "Total Inventory",
+      "registeredUsers": "Registered Users",
+      "criticalStock": "Critical Stock",
+      "warehouseOccupancy": "Warehouse Occupancy",
+      "active": "Active",
+      "warning": "Warning",
+      "unit": "Units",
+      "subtext": {
+        "value": "total value",
+        "people": "people in system",
+        "renew": "restock required",
+        "totalItem": "total items"
+      },
+      "totalUsers": "Total Users",
+      "totalSales": "Total Sales",
+      "revenue": "Revenue",
+      "products": "Products",
+      "lastMonth": "vs last month"
+    },
+    "inventoryStatus": {
+      "title": "Inventory Status",
+      "viewAll": "View All",
+      "table": {
+        "product": "Product Name",
+        "price": "Price",
+        "stock": "Stock",
+        "status": "Status"
+      }
+    },
+    "status": {
+      "outOfStock": "Out of Stock",
+      "critical": "Critical",
+      "available": "Available"
+    },
+    "systemSummary": {
+      "title": "System Summary",
+      "totalProduct": "Total Products",
+      "activeUser": "Active Users",
+      "outOfStock": "Out of Stock Items"
+    },
+    "capacity": {
+      "title": "Warehouse Capacity Rate",
+      "usage": "Capacity Usage",
+      "info": "The total cost of products in the warehouse is around {{value}}."
+    },
+    "recentOrders": {
+      "title": "Recent Orders",
+      "product": "Product",
+      "customer": "Customer",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "targets": {
+      "title": "Monthly Targets",
+      "monthlySales": "Monthly Sales Target",
+      "newUsers": "New User Target",
+      "profit": "Profit Target",
+      "info": "Your targets are automatically calculated based on last month's data."
+    }
+  }
+}
