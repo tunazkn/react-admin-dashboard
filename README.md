@@ -54,7 +54,7 @@ This is a frontend-only project. You can use these default credentials:
 
 **Admin**
 
-- Email: `admin@demo.com`
+- Email: `admin@gmail.com`
 - Password: `123456`
 
 **Editor**

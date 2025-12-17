@@ -91,7 +91,7 @@ const Login: React.FC = () => {
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="ali@mail.com"
+                  placeholder="admin@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   disabled={loading}
