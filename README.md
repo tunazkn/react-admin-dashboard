@@ -2,7 +2,7 @@
 
 A modern, responsive, and fully functional Admin Dashboard template built with **React (CRA)**, **TypeScript**, and **Bootstrap 5**.
 
-[🔴 Live Demo](https://senin-projenin-linki.vercel.app)
+[🔴 Live Demo](https://react-admin-dashboard-lac-one.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -29,8 +29,8 @@ To run this project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/yourusername/repo-name.git](https://github.com/yourusername/repo-name.git)
-cd repo-name
+git clone https://github.com/tunazkn/react-admin-dashboard.git
+cd react-admin-dashboard
 ```
 
 ### 2. Install dependencies
