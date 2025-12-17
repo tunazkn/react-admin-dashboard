@@ -16,7 +16,7 @@ const Login: React.FC = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
   const { t } = useTranslation();
-  usePageTitle("auth.login.title");
+  usePageTitle(t("auth.login.title"));
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
