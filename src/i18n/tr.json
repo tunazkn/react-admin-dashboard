@@ -47,6 +47,13 @@
       "noPermission": "Bu işlem için yetkiniz yok!",
       "confirmDelete": "Bu kullanıcıyı silmek istediğinize emin misiniz?",
       "confirmReset": "Tüm veriler sıfırlanacak. Onaylıyor musunuz?"
+    },
+    "modal": {
+      "titleAdd": "Yeni Kullanıcı Ekle",
+      "nameLabel": "İsim",
+      "emailLabel": "Email",
+      "roleLabel": "Rol",
+      "statusLabel": "Durum"
     }
   },
   "common": {
