@@ -2,7 +2,7 @@
 
 A modern, responsive, and fully functional Admin Dashboard template built with **React (CRA)**, **TypeScript**, and **Bootstrap 5**.
 
-[🔴 Live Demo](https://react-admin-dashboard-lac-one.vercel.app/)
+[🔴 Live Demo](https://tunazkn-admin-dashboard.vercel.app/)
 
 ## 🛠️ Tech Stack
 
